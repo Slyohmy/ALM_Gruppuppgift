@@ -40,6 +40,4 @@ public class Game {
             System.out.println(MSG_GAMEOVER + number);
         }
     }
-
-
 }
