@@ -12,6 +12,7 @@ public class Game {
     public static final String MSG_GAMEOVER = "Game over! The number was ";
     public static final String MSG_WIN = "Congratulations! You guessed my number!";
 
+    //Start game over here
     public static void guessingNumberGame() {
         System.out.println("A random number is chosen between 1-100. Pick the right number within 5 attempts!");
 
@@ -38,9 +39,5 @@ public class Game {
         if (i == attempts) {
             System.out.println(MSG_GAMEOVER + number);
         }
-    }
-
-    public static void main(String arg[]) {
-        guessingNumberGame();
     }
 }
