@@ -10,6 +10,7 @@ public class Game {
 
 
 
+
     public  int guess;
 
     public  final String MSG_TOO_HIGH = "The number is less than ";
@@ -47,6 +48,10 @@ public class Game {
 
     //starts the game here.
     public  void guessingNumberGame() {
+
+    //Start game over here
+    public static void guessingNumberGame() {
+
         System.out.println("A random number is chosen between 1-100. Pick the right number within 5 attempts!");
 
         for (i = 0; i < attempts; i++) {
@@ -76,6 +81,5 @@ public class Game {
             System.out.println(MSG_GAMEOVER + number);
         }
     }
-
 
 }
