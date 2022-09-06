@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>GroupId</groupId>
-    <artifactId>NumberGuessingGame</artifactId>
+    <artifactId>numberguessinggame</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -22,7 +22,8 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/Slyohmy/ALM_Gruppuppgift</url>
+            <!-- change URL to main branch URL after we merged to main -->
+            <url>https://maven.pkg.github.com/Slyohmy/ALM_Gruppuppgift/tree/simon-branch</url>
         </repository>
     </distributionManagement>
 
