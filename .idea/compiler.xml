@@ -10,7 +10,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="NumberGuessingGame" target="17" />
+      <module name="NumberGuessingGame" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="NumberGuessingGame" options="" />
+    </option>
   </component>
 </project>
