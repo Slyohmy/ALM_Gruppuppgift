@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>GroupId</groupId>
+    <groupId>NumberGuessingGame</groupId>
     <artifactId>numberguessinggame</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -22,8 +22,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <!-- change URL to main branch URL after we merged to main -->
-            <url>https://maven.pkg.github.com/Slyohmy/ALM_Gruppuppgift/tree/simon-branch</url>
+            <url>https://maven.pkg.github.com/Slyohmy/ALM_Gruppuppgift/</url>
         </repository>
     </distributionManagement>
 
@@ -36,7 +35,6 @@
                     <artifactId>maven-plugin-plugin</artifactId>
                     <version>3.6.0</version>
                     <configuration>
-                        <!-- see http://jira.codehaus.org/browse/MNG-5346 -->
                         <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
                     </configuration>
                 </plugin>

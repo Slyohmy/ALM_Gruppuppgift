@@ -9,6 +9,11 @@
     <remote-repository>
       <option name="id" value="github" />
       <option name="name" value="GitHub Packages" />
+      <option name="url" value="https://maven.pkg.github.com/Slyohmy/ALM_Gruppuppgift/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github" />
+      <option name="name" value="GitHub Packages" />
       <option name="url" value="https://maven.pkg.github.com/Slyohmy/ALM_Gruppuppgift" />
     </remote-repository>
     <remote-repository>
